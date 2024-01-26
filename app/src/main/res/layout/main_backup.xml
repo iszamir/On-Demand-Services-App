@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background"
+    tools:context=".HomeFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/mainPage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="Main page"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/postService"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/mainPage"
+            android:layout_marginTop="16dp"
+            android:text="Post a service"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnlogout"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/mainPage"
+            android:layout_alignEnd="@id/postService"
+            android:layout_marginStart="61dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginEnd="-201dp"
+            android:layout_toEndOf="@+id/postService"
+            android:text="Logout"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/services"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mainPage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:paddingTop="60dp"
+            android:text="Services"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/postService"
+            android:layout_marginTop="40dp"
+            android:paddingTop="30dp"
+            android:text="Home"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/cleaner"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/home"
+            android:layout_marginTop="15dp"
+            android:text="Cleaner" />
+
+        <Button
+            android:id="@+id/plumber"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/home"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@id/cleaner"
+            android:text="Plumber" />
+
+        <Button
+            android:id="@+id/contractor"
+            android:layout_width="125dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/home"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@id/plumber"
+            android:text="Contractor" />
+
+
+    </RelativeLayout>
+</FrameLayout>

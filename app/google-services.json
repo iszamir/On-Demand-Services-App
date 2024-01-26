@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "12912718733",
+    "project_id": "custom-toolbar-4e30a",
+    "storage_bucket": "custom-toolbar-4e30a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:12912718733:android:5ed6c950711430ddf483c4",
+        "android_client_info": {
+          "package_name": "com.example.customtoolbar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAISBVNwyEO0g_KcTGWgvhviw2dNNwItoY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
