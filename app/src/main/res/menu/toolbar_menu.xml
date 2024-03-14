@@ -19,10 +19,6 @@
         android:id="@+id/menu_update_email"/>
 
     <item
-        android:title="@string/settings"
-        android:id="@+id/menu_settings"/>
-
-    <item
         android:title="@string/change_password"
         android:id="@+id/menu_change_password"/>
 

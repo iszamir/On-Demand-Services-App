@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/background"
     tools:context=".HomeFragment">
 
@@ -29,7 +30,7 @@
             android:orientation="horizontal">
 
                 <Button
-                android:id="@+id/btnPostService"
+                android:id="@+id/button_post_service"
                 android:layout_width="155dp"
                 android:layout_height="50dp"
                 android:text="@string/post_a_service"
@@ -64,6 +65,7 @@
             android:textStyle="bold"
             android:textSize="20sp"/>
 
+
             <HorizontalScrollView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -75,14 +77,14 @@
                     android:orientation="horizontal">
 
                     <androidx.cardview.widget.CardView
+                        android:id="@+id/cv_cleaner"
                         android:layout_width="120dp"
                         android:layout_height="120dp"
                         android:layout_margin="20dp"
-                        app:cardCornerRadius="20dp"
-                        app:cardElevation="10dp"
                         android:clickable="true"
-                        android:id="@+id/cv_cleaning"
-                        android:focusable="true">
+                        android:focusable="true"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="10dp">
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -100,22 +102,22 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="5dp"
-                                android:text="Cleaning"
-                                android:textSize="18sp" />
+                                android:text="Cleaner"
+                                android:textSize="16sp" />
 
                         </LinearLayout>
 
                     </androidx.cardview.widget.CardView>
 
                     <androidx.cardview.widget.CardView
+                        android:id="@+id/cv_plumber"
                         android:layout_width="120dp"
                         android:layout_height="120dp"
                         android:layout_margin="20dp"
-                        app:cardCornerRadius="20dp"
-                        app:cardElevation="10dp"
                         android:clickable="true"
-                        android:id="@+id/cv_plumbing"
-                        android:focusable="true">
+                        android:focusable="true"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="10dp">
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -133,22 +135,22 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="5dp"
-                                android:text="@string/plumbing"
-                                android:textSize="18sp" />
+                                android:text="Plumber"
+                                android:textSize="16sp" />
 
                         </LinearLayout>
 
                     </androidx.cardview.widget.CardView>
 
                     <androidx.cardview.widget.CardView
+                        android:id="@+id/cv_contractor"
                         android:layout_width="120dp"
                         android:layout_height="120dp"
                         android:layout_margin="20dp"
-                        app:cardCornerRadius="20dp"
-                        app:cardElevation="10dp"
                         android:clickable="true"
-                        android:id="@+id/cv_contractor"
-                        android:focusable="true">
+                        android:focusable="true"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="10dp">
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -167,21 +169,21 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="5dp"
                                 android:text="@string/contractor"
-                                android:textSize="18sp" />
+                                android:textSize="16sp" />
 
                         </LinearLayout>
 
                     </androidx.cardview.widget.CardView>
 
                     <androidx.cardview.widget.CardView
+                        android:id="@+id/cv_mover"
                         android:layout_width="120dp"
                         android:layout_height="120dp"
                         android:layout_margin="20dp"
-                        app:cardCornerRadius="20dp"
-                        app:cardElevation="10dp"
                         android:clickable="true"
                         android:focusable="true"
-                        android:id="@+id/cv_mover">
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="10dp">
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -200,7 +202,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="5dp"
                                 android:text="@string/mover"
-                                android:textSize="18sp" />
+                                android:textSize="16sp" />
 
                         </LinearLayout>
 
@@ -208,7 +210,6 @@
 
                 </LinearLayout>
             </HorizontalScrollView>
-
 
             <View
                 android:layout_width="match_parent"
@@ -264,7 +265,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="5dp"
                                 android:text="Dispatch"
-                                android:textSize="18sp" />
+                                android:textSize="16sp" />
 
                         </LinearLayout>
 
@@ -297,7 +298,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="5dp"
                                 android:text="@string/babysitter"
-                                android:textSize="18sp" />
+                                android:textSize="16sp" />
 
                         </LinearLayout>
 
@@ -330,7 +331,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="5dp"
                                 android:text="@string/maid"
-                                android:textSize="18sp" />
+                                android:textSize="16sp" />
 
                         </LinearLayout>
 
@@ -363,7 +364,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="5dp"
                                 android:text="@string/shopper"
-                                android:textSize="18sp" />
+                                android:textSize="16sp" />
 
                         </LinearLayout>
                     </androidx.cardview.widget.CardView>
@@ -423,7 +424,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="5dp"
                                 android:text="@string/photographer"
-                                android:textSize="18sp" />
+                                android:textSize="16sp" />
 
                         </LinearLayout>
 
@@ -456,7 +457,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="5dp"
                                 android:text="@string/programmer"
-                                android:textSize="18sp" />
+                                android:textSize="16sp" />
 
                         </LinearLayout>
 
@@ -489,7 +490,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="5dp"
                                 android:text="Designer"
-                                android:textSize="18sp" />
+                                android:textSize="16sp" />
 
                         </LinearLayout>
 
@@ -522,18 +523,13 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="5dp"
                                 android:text="@string/animation"
-                                android:textSize="18sp" />
+                                android:textSize="16sp" />
 
                         </LinearLayout>
                     </androidx.cardview.widget.CardView>
 
                 </LinearLayout>
             </HorizontalScrollView>
-
-
-
-
-
         </LinearLayout>
     </ScrollView>
 </FrameLayout>

@@ -4,4 +4,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="lavender">#8692F7</color>
     <color name="underline">#D8D6D6</color>
+    <color name="dark_green">#006400</color>
+    <color name="red">#FF0000</color>
 </resources>

@@ -52,4 +52,233 @@
     <string name="please_enter_your_registered_email_to_receive_password_reset_link">Please enter your registered email to receive password reset link</string>
     <string name="enter_your_registered_email">Enter your registered email</string>
     <string name="reset_password">Reset Password</string>
+    <string name="upload_your_profile_picture">Upload your Profile Picture</string>
+    <string name="choose_picture">Choose Picture</string>
+    <string name="upload_picture">Upload Picture</string>
+    <string name="you_can_update_your_profile_details_now">You can update your profile details now</string>
+    <string name="enter_your_date_of_birth">Enter your Date of Birth</string>
+    <string name="enter_your_full_name">Enter your Full Name</string>
+    <string name="you_can_update_ypur_email_address_now">You can update ypur email address now</string>
+    <string name="post_service">Post Service</string>
+    <string name="offer_your_service">Offer Your Service</string>
+    <string name="service_type">Service Type :</string>
+    <string name="state">State :</string>
+    <string name="district">District :</string>
+    <string name="enter_description_of_service">Enter Description of Service</string>
+    <string name="enter_your_phone_number">Enter your Phone Number</string>
+    <string name="enter_price_of_service">Enter Price of Service</string>
+    <string name="enter_title_of_service">Enter Title of Service</string>
+    <string name="authenticated">You are authenticated/verified. You can change password now</string>
+    <string name="you_are_authenticated_verified_you_can_delete_your_profile_and_related_data_now">You are authenticated/verified. You can delete your profile and related data now</string>
+
+    <string-array name="array_services">
+        <item>Select Your Service</item>
+        <item>Cleaner</item>
+        <item>Plumber</item>
+        <item>Contractor</item>
+        <item>Mover</item>
+        <item>Dispatch</item>
+        <item>Babysitter</item>
+        <item>Maid</item>
+        <item>Shopper</item>
+        <item>Photographer</item>
+        <item>Programmer</item>
+        <item>Designer</item>
+        <item>Animation</item>
+    </string-array>
+
+    <string-array name="array_state">
+        <item>Select Your State</item>
+        <item>Johor</item>
+        <item>Kedah</item>
+        <item>Kelantan</item>
+        <item>Melaka</item>
+        <item>Negeri Sembilan</item>
+        <item>Pahang</item>
+        <item>Perak</item>
+        <item>Perlis</item>
+        <item>Pulau Pinang</item>
+        <item>Sabah</item>
+        <item>Sarawak</item>
+        <item>Selangor</item>
+        <item>Terengganu</item>
+        <item>WP Kuala Lumpur</item>
+        <item>WP Labuan</item>
+        <item>WP Putrajaya</item>
+    </string-array>
+
+    <string-array name="array_default_districts">
+        <item>Select Your District</item>
+    </string-array>
+
+    <string-array name="array_johor_districts">
+        <item>Select Your District</item>
+        <item>Batu Pahat</item>
+        <item>Johor Bahru</item>
+        <item>Kluang</item>
+        <item>Kota Tinggi</item>
+        <item>Kulai</item>
+        <item>Mersing</item>
+        <item>Muar</item>
+        <item>Pontian</item>
+        <item>Segamat</item>
+        <item>Tangkak</item>
+    </string-array>
+
+    <string-array name="array_kedah_districts">
+        <item>Select Your District</item>
+        <item>Alor Setar</item>
+        <item>Bandar Baharu</item>
+        <item>Baling</item>
+        <item>Kuala Muda</item>
+        <item>Kuala Langat</item>
+        <item>Kubang Pasu</item>
+        <item>Langkawi</item>
+        <item>Padang Terap</item>
+        <item>Pendang</item>
+        <item>Sik</item>
+        <item>Yan</item>
+    </string-array>
+
+    <string-array name="array_kelantan_districts">
+        <item>Select Your District</item>
+        <item>Bachok</item>
+        <item>Gua Musang</item>
+        <item>Jeli</item>
+        <item>Kota Bharu</item>
+        <item>Kuala Krai</item>
+        <item>Machang</item>
+        <item>Pasir Mas</item>
+        <item>Pasir Puteh</item>
+        <item>Tanah Merah</item>
+        <item>Tumpat</item>
+    </string-array>
+
+    <string-array name="array_melaka_districts">
+        <item>Select Your District</item>
+        <item>Alor Gajah</item>
+        <item>Central Melaka</item>
+        <item>Jasin</item>
+    </string-array>
+
+    <string-array name="array_negeri_sembilan_districts">
+        <item>Select Your District</item>
+        <item>Jempol</item>
+        <item>Kuala Pilah</item>
+        <item>Port Dickson</item>
+        <item>Rembau</item>
+        <item>Seremban</item>
+        <item>Tampin</item>
+    </string-array>
+
+    <string-array name="array_pahang_districts">
+        <item>Select Your District</item>
+        <item>Bentong</item>
+        <item>Bera</item>
+        <item>Jerantut</item>
+        <item>Kuantan</item>
+        <item>Lipis</item>
+        <item>Maran</item>
+        <item>Pekan</item>
+        <item>Raub</item>
+        <item>Rompin</item>
+        <item>Tanah Rata</item>
+        <item>Temerloh</item>
+    </string-array>
+
+    <string-array name="array_perak_districts">
+        <item>Select Your District</item>
+        <item>Batang Padang</item>
+        <item>Hilir Perak</item>
+        <item>Hulu Perak</item>
+        <item>Ipoh</item>
+        <item>Kuala Kangsar</item>
+        <item>Kinta</item>
+        <item>Larut,Matang and Selama</item>
+        <item>Manjung</item>
+        <item>Taiping</item>
+    </string-array>
+
+    <string-array name="array_perlis_districts">
+        <item>Select Your District</item>
+        <item>Arau</item>
+        <item>Kangar</item>
+        <item>Padang Besar</item>
+    </string-array>
+
+    <string-array name="array_penang_districts">
+        <item>Select Your District</item>
+        <item>North-East Penang Island</item>
+        <item>South-West Penang Island</item>
+        <item>Central Seberang Perai</item>
+        <item>North Seberang Perai</item>
+        <item>South Seberang Perai</item>
+    </string-array>
+
+    <string-array name="array_sabah_districts">
+        <item>Select Your District</item>
+        <item>Beaufort</item>
+        <item>Keningau</item>
+        <item>Kota Marudu</item>
+        <item>Kota Kinabalu</item>
+        <item>Kudat</item>
+        <item>Lahad Datu</item>
+        <item>Ranau</item>
+        <item>Sandakan</item>
+        <item>Semporna</item>
+        <item>Tawau</item>
+    </string-array>
+
+    <string-array name="array_sarawak_districts">
+        <item>Select Your District</item>
+        <item>Bintulu</item>
+        <item>Kapit</item>
+        <item>Kuching</item>
+        <item>Limbang</item>
+        <item>Miri</item>
+        <item>Mukah</item>
+        <item>Samarahan</item>
+        <item>Sibu</item>
+        <item>Sri Aman</item>
+        <item>Tawau</item>
+    </string-array>
+
+    <string-array name="array_selangor_districts">
+        <item>Select Your District</item>
+        <item>Gombak</item>
+        <item>Hulu Langat</item>
+        <item>Hulu Selangor</item>
+        <item>Klang</item>
+        <item>Kuala Langat</item>
+        <item>Kuala Selangor</item>
+        <item>Petaling</item>
+        <item>Sabak Bernam</item>
+        <item>Sepang</item>
+    </string-array>
+
+    <string-array name="array_terengganu_districts">
+        <item>Select Your District</item>
+        <item>Besut</item>
+        <item>Dungun</item>
+        <item>Hulu Terengganu</item>
+        <item>Kemaman</item>
+        <item>Kuala Terengganu</item>
+        <item>Marang</item>
+        <item>Setiu</item>
+    </string-array>
+
+    <string-array name="array_wp_kualalumpur_districts">
+        <item>Select Your District</item>
+        <item>Kuala Lumpur</item>
+    </string-array>
+
+    <string-array name="array_wp_putrajaya_districts">
+        <item>Select Your District</item>
+        <item>Putrajaya</item>
+    </string-array>
+    <string-array name="array_wp_labuan_districts">
+        <item>Select Your District</item>
+        <item>Labuan</item>
+    </string-array>
+
 </resources>
